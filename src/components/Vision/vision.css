@@ -1,0 +1,51 @@
+.vhead {
+  height: 250px;
+  color: white;
+  position: relative;
+}
+.vision{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.vision::before {
+  background-image: url("../images//blackbg.jpg");
+  content: "";
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+
+}
+#vblack {
+  height: 80%;
+  margin: auto;
+  background-color: black;
+  text-align: center;
+  margin-top: 30px;
+}
+#m4 {
+  font-size: larger;
+  font-family: "Cinzel", "serif";
+  line-height: 48px;
+  letter-spacing: 10%;
+}
+.vtext {
+  margin: auto;
+  width: 50%;
+  margin-top: 30px;
+  font-size: large;
+  font-weight: bolder;
+  font-family: "Roboto Flex", sans-serif;
+}
+
+@media screen and (max-width : 800px) {
+  .vtext{
+    width: 80%;
+    font-size: small;
+  }
+}

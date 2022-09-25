@@ -1,0 +1,21 @@
+.company{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cimgs{
+    width: 250px;
+    margin: 10px;
+    height: 300px;
+}
+.s{
+    width: 340px;
+}
+
+@media screen and (max-width:800px) {
+    .icnt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

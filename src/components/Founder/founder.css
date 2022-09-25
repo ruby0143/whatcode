@@ -1,0 +1,80 @@
+.fcnt,
+.founder,
+.fintro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+}
+.founder{
+  padding: 20px;
+}
+.founder::before {
+  content: "";
+  background-image: url("../images/whiteBg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.25;
+}
+
+.fcnt {
+  border: 3px dotted lightblue;
+  width: 60%;
+  margin: auto;
+  background-color: white;
+  opacity: 0.8;
+}
+.fimg {
+  width: 200px;
+  border-radius: 50%;
+  margin: 40px;
+  border: 5px double black;
+}
+
+.bold {
+  margin: 20px;
+}
+.desc {
+  width: 60%;
+  font-size: large;
+  text-align: center;
+  font-family: "Roboto Flex", sans-serif;
+  margin: 30px;
+  font-weight: 600;
+}
+.fintro {
+  margin-bottom: 50px;
+}
+.fdesc {
+  width: 80%;
+  font-size: large;
+  font-family: "Roboto Flex", sans-serif;
+  margin: 30px;
+}
+
+.rs {
+  font-size: 28px;
+}
+
+@media screen and (max-width:800px) {
+  .fcnt{
+    width: 95%;
+  }
+  .rs{
+    font-size: 20px;
+  }
+  .desc{
+    width: 80%;
+  }
+  .fdesc{
+    margin: 20px;
+    font-size: medium;
+  }
+}
